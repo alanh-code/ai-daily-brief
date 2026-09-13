@@ -1,0 +1,36 @@
+# Generated applications and local artifacts
+node_modules/
+dist/
+build/
+.next/
+.vinext/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+*.log
+.DS_Store
+.openai/
+.sites-runtime/
+.wrangler/
+plan/
+
+# Personal generated data; sample.json is the shareable template
+/data/
+
+# Credentials and browser state
+.env*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+.auth/
+playwright/.auth/
+playwright-report/
+test-results/
+.cookies*
+cookies*.json
+cookies*.txt
+storage-state*.json
+storageState*.json
